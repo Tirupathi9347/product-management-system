@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['exp_date', 'mfg_date']
+
+roboflow:
+  workspace: expdate-tthcz
+  project: expiry-date-detection-fz1ba
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/expdate-tthcz/expiry-date-detection-fz1ba/dataset/4

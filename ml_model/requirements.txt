@@ -1,0 +1,15 @@
+# Core Deep Learning & Vision
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.40.0
+accelerate>=0.28.0
+pillow>=10.0.0
+
+# API Server & Utilities
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9
+requests>=2.31.0
+tqdm>=4.66.0
+numpy>=1.24.0
+scikit-learn>=1.3.0

@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Next.js",
+      "type": "shell",
+      "command": "npm run dev",
+      "group": "build",
+      "presentation": {
+        "group": "spms",
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Starting",
+          "endsPattern": "Local:"
+        }
+      }
+    },
+    {
+      "label": "Start ML Server",
+      "type": "shell",
+      "command": "cd ml_model && venv\\Scripts\\activate && python app_server.py",
+      "group": "build",
+      "presentation": {
+        "group": "spms",
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Starting",
+          "endsPattern": "localhost:8000"
+        }
+      }
+    },
+    {
+      "label": "🚀 Run SPMS (Both Servers)",
+      "dependsOn": ["Start Next.js", "Start ML Server"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

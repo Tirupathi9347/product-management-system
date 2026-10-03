@@ -1,0 +1,41 @@
+[
+  {
+    "image_filename": "sample_atta.jpg",
+    "product_name": "Aashirvaad Superior MP Shuddh Chakki Atta",
+    "brand": "Aashirvaad",
+    "category": "Food & Groceries",
+    "mrp": 275.0,
+    "purchase_price": 260.0,
+    "weight": "5 kg",
+    "manufacturing_date": "2026-06-01",
+    "expiry_date": "2026-12-01",
+    "batch_number": "ASH-2026-B101",
+    "barcode": "8901030382901"
+  },
+  {
+    "image_filename": "sample_milk.jpg",
+    "product_name": "Amul Taaza Homogenised Toned Milk",
+    "brand": "Amul",
+    "category": "Food & Groceries",
+    "mrp": 68.0,
+    "purchase_price": 68.0,
+    "weight": "1 L",
+    "manufacturing_date": "2026-09-20",
+    "expiry_date": "2026-09-22",
+    "batch_number": "AML-0920",
+    "barcode": "8901262010053"
+  },
+  {
+    "image_filename": "sample_biscuit.jpg",
+    "product_name": "Britannia Good Day Butter Cookies",
+    "brand": "Britannia",
+    "category": "Snacks & Confectionery",
+    "mrp": 40.0,
+    "purchase_price": 38.0,
+    "weight": "200 g",
+    "manufacturing_date": "2026-07-15",
+    "expiry_date": "2027-01-15",
+    "batch_number": "GD-0715-A",
+    "barcode": "8901063142211"
+  }
+]
